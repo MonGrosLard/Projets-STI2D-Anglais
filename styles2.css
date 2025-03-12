@@ -262,7 +262,7 @@ header {
     }
 }
 
-@media screen and (max-width: 418px) {
+@media screen and (min-width: 418px) {
     .image img {
         margin: 10px;
         width: 500px;
