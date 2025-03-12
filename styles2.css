@@ -262,22 +262,5 @@ header {
     }
 }
 
-@media screen and (min-width: 418px) {
-    .image img {
-        margin: 10px;
-        width: 500px;
-        border-radius: 30px;
-        transition: 0.3s;
-        -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation-timeline : view();
-        animation-range-start: 0%;
-        animation-range-end: 30%;
-    }
-
-    
-}
 
 
