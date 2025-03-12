@@ -220,7 +220,7 @@ header h1 {
 
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (min-width: 535px) {
 
     .image img {
         width: 200px;
