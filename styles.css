@@ -233,33 +233,4 @@ header h1 {
 
 }
 
-@media screen and (max-width: 418px) {
-    .image img {
-        width: 500px;
-        border-radius: 20px;
-             -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation-timeline : view();
-        animation-range-start: 0%;
-        animation-range-end: 30%;
-    }
 
-    .content p {
-        font-size: 20px;
-        text-align: left;
-        margin-left: 130px;
-        margin-right: 130px;
-        margin-top: 30px;
-            -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation-timeline : view();
-        animation-range-start: 0%;
-        animation-range-end: 30%;
-    }
-
-    
-}
