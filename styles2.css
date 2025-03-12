@@ -60,8 +60,11 @@ header {
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation-timeline : view();
-    animation-range-start: 0%;
-    animation-range-end: 30%;
+    -webkit-animation-timeline : view();
+     animation-range-start: 0%;
+    -webkit-animation-range-start: 0%;
+     animation-range-end: 30%;
+    -webkit-animation-range-end: 30%;
 }
 
 .image img:hover {
